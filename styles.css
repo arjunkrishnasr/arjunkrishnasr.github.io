@@ -1,67 +1,53 @@
-/* Reset and basic styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f8f9fa;
 }
-
-header {
+.container {
+    margin-top: 50px;
+}
+.profile-header {
     text-align: center;
-    padding: 50px 0;
-    background-color: #007bff;
-    color: #fff;
+    margin-bottom: 50px;
 }
-
-header h1 {
+.profile-header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
-
-header p {
+.profile-header p {
     font-size: 1.2rem;
-    margin-bottom: 20px;
+    color: #6c757d;
 }
-
-.links {
-    margin-top: 20px;
-}
-
-.links a {
-    color: #fff;
+.profile-header a {
+    color: #6c757d;
     text-decoration: none;
-    margin: 0 10px;
-    font-size: 1.2rem;
 }
-
-.links a:hover {
+.profile-header a:hover {
     text-decoration: underline;
 }
-
-section {
-    margin: 30px 0;
-    padding: 0 20px;
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
-
-section h2 {
-    font-size: 2rem;
+.btn-group {
+    margin: 20px 0;
+}
+.btn-group a {
+    margin-right: 10px;
+}
+.resume-section, .projects-section {
+    margin-bottom: 50px;
+}
+.resume-section ul, .projects-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.resume-section ul li, .projects-section ul li {
     margin-bottom: 10px;
 }
-
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #007bff;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.project-item {
+    margin-bottom: 30px;
 }
