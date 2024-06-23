@@ -9,8 +9,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Arjun Krishna S R</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container">
-        <div class="profile-header">
+        <div class="profile-header text-center">
             <img src="path/to/your/photo.jpg" alt="Profile Photo" class="profile-photo">
             <h1>Arjun Krishna S R</h1>
             <p>Email: <a href="mailto:arjun7a@gmail.com">arjun7a@gmail.com</a> | Mobile: <a href="tel:+919645271455">+91 9645271455</a></p>
@@ -22,16 +45,16 @@
             </div>
         </div>
 
-        <div class="resume-section">
+        <div id="education" class="resume-section">
             <h2>Education</h2>
             <ul>
                 <li><strong>Vellore Institute of Technology</strong>, Master of Technology - Computer Science with Specialization in Big Data Analytics; GPA: 8.65 (2022 - 2024)</li>
                 <li><strong>Cochin University of Science And Technology</strong>, Bachelor of Technology - Computer Science; GPA: 7.51 (2017 - 2021)</li>
-                <li><strong>THE GREENHILLS PUBLIC SCHOOL</strong>, Higher Secondary - Central Board of Secondary Education; 91.6% (2015 - 2016)</li>
+                <li><strong>The Greenhills Public School</strong>, Higher Secondary - Central Board of Secondary Education; 91.6% (2015 - 2016)</li>
             </ul>
         </div>
 
-        <div class="resume-section">
+        <div id="skills" class="resume-section">
             <h2>Skills Summary</h2>
             <ul>
                 <li><strong>Languages:</strong> Python, SQL</li>
@@ -42,7 +65,7 @@
             </ul>
         </div>
 
-        <div class="resume-section">
+        <div id="experience" class="resume-section">
             <h2>Work Experience</h2>
             <h3>Data Scientist Intern | Textron</h3>
             <ul>
@@ -53,7 +76,7 @@
             </ul>
         </div>
 
-        <div class="projects-section">
+        <div id="projects" class="projects-section">
             <h2>Projects</h2>
             <div class="project-item">
                 <h3>Analysis of Aircraft Faults Using Machine Learning</h3>
